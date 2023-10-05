@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T21:00:52.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="3iMOl_8h3uWaJOIpUkan" version="22.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T21:03:52.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="MWVWXhgbc1SHavsZhzCE" version="22.0.3" type="github">
   <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
-    <mxGraphModel dx="956" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#E8ACAC" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -9,19 +9,19 @@
             <mxPoint x="659.9999999999998" y="379.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3a17f1ce550125da-1" value="&quot;DAR&quot; Outsource" style="whiteSpace=wrap;html=1;shadow=1;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+        <mxCell id="3a17f1ce550125da-1" value="&quot;DAR&quot; Outsource" style="whiteSpace=wrap;html=1;shadow=1;fontSize=20;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;dashed=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="856.5" y="350" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3a17f1ce550125da-14" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;fontSize=18;elbow=vertical;" parent="1" source="3a17f1ce550125da-2" target="3a17f1ce550125da-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3a17f1ce550125da-2" value="Project Core Team&lt;br&gt;Saibossyn Izim&lt;br&gt;Tolegenov Kuat" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="3a17f1ce550125da-2" value="Project Core Team&lt;br&gt;Saibossyn Izim&lt;br&gt;Tolegenov Kuat" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#2EFF9D;strokeColor=#666666;fillStyle=dots;gradientColor=#57ffb6;gradientDirection=north;" parent="1" vertex="1">
           <mxGeometry x="820" y="490" width="223" height="190" as="geometry" />
         </mxCell>
         <mxCell id="pfjkunFXqHvG4dDpBAbw-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3a17f1ce550125da-5" target="3a17f1ce550125da-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3a17f1ce550125da-5" value="Project Manager&lt;br&gt;Tolegenov Kuat" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="3a17f1ce550125da-5" value="Project Manager&lt;br&gt;Tolegenov Kuat" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1130" y="542" width="150" height="86" as="geometry" />
         </mxCell>
         <mxCell id="3a17f1ce550125da-20" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;fontSize=18;elbow=vertical;" parent="1" source="3a17f1ce550125da-8" target="3a17f1ce550125da-2" edge="1">
@@ -31,7 +31,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3a17f1ce550125da-8" value="Project Leader&lt;br&gt;Saibossyn Izim" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="3a17f1ce550125da-8" value="Project Leader&lt;br&gt;Saibossyn Izim" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="597" y="444" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="pfjkunFXqHvG4dDpBAbw-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3a17f1ce550125da-9">
@@ -48,7 +48,7 @@
         <mxCell id="3a17f1ce550125da-18" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;fontSize=18;elbow=vertical;" parent="1" source="3a17f1ce550125da-11" target="3a17f1ce550125da-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3a17f1ce550125da-11" value="Front-end Dev&lt;br&gt;Saibossyn Izim" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="3a17f1ce550125da-11" value="Front-end Dev&lt;br&gt;Saibossyn Izim" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="560" y="790" width="157" height="74" as="geometry" />
         </mxCell>
         <mxCell id="3a17f1ce550125da-22" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;fontSize=18;" parent="1" source="3a17f1ce550125da-10" target="3a17f1ce550125da-2" edge="1">
@@ -72,10 +72,10 @@
             <mxPoint x="962" y="444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pfjkunFXqHvG4dDpBAbw-3" value="Designer&lt;br&gt;Bekbolat Sanzhar" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="pfjkunFXqHvG4dDpBAbw-3" value="Designer&lt;br&gt;Bekbolat Sanzhar" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="420" y="690" width="157" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="pfjkunFXqHvG4dDpBAbw-4" value="Back-end Dev&lt;br&gt;Tolegenov Kuat" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="pfjkunFXqHvG4dDpBAbw-4" value="Back-end Dev&lt;br&gt;Tolegenov Kuat" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="1130" y="790" width="157" height="74" as="geometry" />
         </mxCell>
         <mxCell id="pfjkunFXqHvG4dDpBAbw-10" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;fontSize=18;elbow=vertical;entryX=0.994;entryY=0.537;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
