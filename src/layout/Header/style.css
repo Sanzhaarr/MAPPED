@@ -1,0 +1,24 @@
+.header {
+    background: rgba( 21, 158, 236, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  column-gap: 70px;
+  font-size: 20px;
+}

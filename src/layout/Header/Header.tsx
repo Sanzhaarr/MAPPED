@@ -1,7 +1,8 @@
-import "./styles/header.css";
-import logo from "../assets/logo.svg";
+import logo from "../../assets/logo.svg";
+import "./style.css";
 
-function Header() {
+
+const Header = () => {
   return (
     <>
       <header className="header">
@@ -35,6 +36,6 @@ function Header() {
       </header>
     </>
   );
-}
+};
 
 export default Header;
