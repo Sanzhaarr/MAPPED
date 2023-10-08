@@ -1,7 +1,7 @@
 import styles from "./Discover.module.css";
 import camera from "../assets/camera-3D.png";
 import LearnMore from "./LearnMore";
-import Checks from "./Checks"
+import Checks from "./Checks";
 
 const Discover = () => {
   return (

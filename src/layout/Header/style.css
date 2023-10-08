@@ -4,7 +4,7 @@
     backdrop-filter: blur( 3px );
     -webkit-backdrop-filter: blur( 3px );
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     top: 0;
     width: 100%;
 }

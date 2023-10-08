@@ -1,0 +1,41 @@
+.registration {
+  background-color: #021017;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1520px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.logo img {
+  width: 94px;
+  height: 25px;
+}
+
+.sign {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+}
+
+.signIn {
+  transition: all 0.3s linear;
+}
+
+.signIn:hover {
+  text-decoration: underline;
+}
+
+.sign span {
+  padding-right: 5px;
+  color: #696262;
+}
