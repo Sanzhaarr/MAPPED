@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import "../App.css";
 import Discover from "../components/Discover";
 import GLOBE from "vanta/src/vanta.globe";
+import Footer from "../layout/Footer/Footer";
+import ConnectCommunity from "../components/ConnectCommunity";
 
 const Welcome = () => {
   useEffect(() => {
@@ -30,7 +32,7 @@ const Welcome = () => {
                   Explore, Share, and Connect with Nature Your Personal Map
                   Journal
                 </p>
-                <button className="btn">Make a pin</button>
+                <button className="btn"><a href="/signup">Make a pin</a></button>
               </div>
             </div>
           </div>
@@ -38,6 +40,10 @@ const Welcome = () => {
       </div>
 
       <Discover />
+
+      <ConnectCommunity />
+
+      <Footer />
     </>
   );
 };

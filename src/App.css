@@ -70,3 +70,7 @@
   border: 2px solid #bfb8b8;
   padding: 10px 50px;
 }
+
+.active-button {
+  display: none;
+}

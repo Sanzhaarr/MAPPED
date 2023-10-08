@@ -1,3 +1,5 @@
+import {NavLink} from "react-router-dom";
+
 import logo from "../../assets/logo.svg";
 import "./style.css";
 
@@ -8,27 +10,29 @@ const Header = () => {
       <header className="header">
         <div className="container">
           <nav className="nav">
-            <img src={logo} alt="MAPPED" />
+            <NavLink to="/">
+              <img src={logo} alt="MAPPED" />
+            </NavLink>
             <ul className="list">
               <li className="item user">
-                <a href="/" className="link">
+                <NavLink to="/profile" className="link">
                   ACCOUNT
-                </a>
+                </NavLink>
               </li>
               <li className="item world">
-                <a href="/" className="link">
+                <NavLink to="/planets" className="link">
                   PLANETS
-                </a>
+                </NavLink>
               </li>
               <li className="item marker">
-                <a href="/" className="link">
+                <NavLink to="/pins" className="link">
                   PINS
-                </a>
+                </NavLink>
               </li>
               <li className="item search">
-                <a href="/" className="link">
-                  SEARCH
-                </a>
+                <NavLink to="/signup" className="link">
+                  SIGN UP
+                </NavLink>
               </li>
             </ul>
           </nav>

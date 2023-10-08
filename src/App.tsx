@@ -1,16 +1,21 @@
 import "./App.css";
-import Header from "./layout/Header/Header";
-import Footer from "./layout/Footer/Footer";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Welcome from "./pages/Welcome";
 import Registration from "./pages/Registration";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
     <>
-      {/* <Header />
-      <Welcome />
-      <Footer /> */}
-      <Registration />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="/signup" element={<Registration />} />
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
+      </Router>
     </>
   );
 }
