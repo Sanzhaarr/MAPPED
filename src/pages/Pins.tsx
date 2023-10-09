@@ -1,14 +1,18 @@
 import Footer from "../layout/Footer/Footer";
 import Header from "../layout/Header/Header";
+import styles from "./Pins.module.css";
 
-const Profile = () => {
-    return (
+
+const Pins = () => {
+    return(
         <>
         <Header />
-        
+
+
+
         <Footer />
         </>
     );
 }
 
-export default Profile;
+export default Pins;
