@@ -1,7 +1,8 @@
 .wrapper {
-    background-image: url("../../assets/earth-bg.png");
+    /* background-image: url("../../assets/earth-bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #0b1b24;
     background-position:top;
 }
 
