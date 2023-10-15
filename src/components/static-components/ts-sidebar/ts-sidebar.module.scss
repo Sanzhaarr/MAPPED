@@ -3,6 +3,7 @@
 .sidebar {
     transition: width .2s ease-in-out;
     // Sizing
+    height: 100vh;
     width: 16rem;
     // Rendering
     background: $gray-300;

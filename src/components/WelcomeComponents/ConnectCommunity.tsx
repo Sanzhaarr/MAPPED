@@ -1,6 +1,6 @@
 import styles from "./ConnectCommunity.module.css";
-import travel from "../assets/travel.jpg";
-import LearnMore from "./btns/LearnMore";
+import travel from "../../assets/travel.jpg";
+import LearnMore from "../btns/LearnMore";
 
 const ConnectCommunity = () => {
   return (

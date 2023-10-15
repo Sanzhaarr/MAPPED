@@ -102,6 +102,13 @@ svg {
     fill: rgb(151, 20, 151);
 }
 
+#btn {
+  margin: 20px;
+  font-size: 14px;
+  padding: 7px 15px;
+  border: 2px solid #FFF;
+  border-radius: 8px;
+}
 
 .inputs1 {
     margin-bottom: 15px;

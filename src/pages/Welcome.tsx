@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../App.css";
-import Discover from "../components/Discover";
+import Discover from "../components/WelcomeComponents/Discover";
 import GLOBE from "vanta/src/vanta.globe";
 import Footer from "../layout/Footer/Footer";
-import ConnectCommunity from "../components/ConnectCommunity";
+import ConnectCommunity from "../components/WelcomeComponents/ConnectCommunity";
 
 const Welcome = () => {
   useEffect(() => {
@@ -21,14 +21,14 @@ const Welcome = () => {
       backgroundColor: 0x1b205f,
     });
   }, []);
-  
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
       once: true,
     });
     AOS.refresh;
-  }, [])
+  }, []);
 
   return (
     <>
@@ -37,12 +37,16 @@ const Welcome = () => {
           <div className="container">
             <div className="welcome-inner">
               <div className="make-pin">
-                <h1 className="title" data-aos="fade-up">Mapped</h1>
+                <h1 className="title" data-aos="fade-up">
+                  Mapped
+                </h1>
                 <p className="subtitle" data-aos="fade-up">
                   Explore, Share, and Connect with Nature Your Personal Map
                   Journal
                 </p>
-                <button className="btn"><a href="/signup">Make a pin</a></button>
+                <button className="btn">
+                  <a href="/signup">Make a pin</a>
+                </button>
               </div>
             </div>
           </div>

@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import logo from "../assets/logo.svg";
 import style from "./Registration.module.css";
+import { NavLink } from "react-router-dom";
 
 const Registration = () => {
   const [isShown, setIsShown] = useState(false);
@@ -23,12 +24,12 @@ const Registration = () => {
 
             <div className={style.sign}>
               <span>Already have an account?</span>
-              <a href="/" className={style.signIn}>
+              <NavLink to="/login" className={style.signIn}>
                 Sign in
-              </a>
+              </NavLink>
             </div>
           </nav>
-          <form action="" className={style.form}>
+          <form action="profile" className={style.form}>
             <h1 className={style.title}>
               Welcome to Mapped! <br /> Let’s begin the adventure
             </h1>
@@ -48,6 +49,7 @@ const Registration = () => {
                 </svg>
                 <input type="email" className={style.input} />
                 <button
+                  id={style.btn}
                   type="button"
                   onClick={handleClick}
                   className={
@@ -95,7 +97,7 @@ const Registration = () => {
                   <input type="text" className={style.input} />
                 </div>
                 
-              <button className={style.signUp}>Sign Up</button>
+              <button id={style.btn} className={style.signUp}>Sign Up</button>
               </div>
             )}
           </form>

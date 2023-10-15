@@ -1,9 +1,9 @@
 import styles from "./Checks.module.css";
 
-import mark from "../assets/svg-icons/claw-marks.svg";
-import users from "../assets/svg-icons/users.svg";
-import hiking from "../assets/svg-icons/hiking.svg";
-import shield from "../assets/svg-icons/shield-check.svg";
+import mark from "../../assets/svg-icons/claw-marks.svg";
+import users from "../../assets/svg-icons/users.svg";
+import hiking from "../../assets/svg-icons/hiking.svg";
+import shield from "../../assets/svg-icons/shield-check.svg";
 
 const Checks = () => {
   return (
