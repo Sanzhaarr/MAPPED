@@ -4,7 +4,7 @@ import style from "./Map.module.scss";
 
 const Map = () => {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "api",
+    googleMapsApiKey: "",
   });
   const center = useMemo(
     () => ({ lat: 43.24417807387171, lng: 76.85739059645189 }),
@@ -25,8 +25,10 @@ const Map = () => {
       ) : (
         <GoogleMap
           mapContainerClassName={style.mapContainer}
-          center={center}
+          center={{ lat: 40, lng: -80 }}
           zoom={10}
+          options={options}
+          mapTypeId="satellite"
         >
           <Marker
             position={{ lat: 43.24417807387171, lng: 76.85739059645189 }}

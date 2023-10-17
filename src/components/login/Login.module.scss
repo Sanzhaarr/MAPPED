@@ -1,4 +1,3 @@
-
 .main {
     background-color: #021017;
     height: 100vh;
@@ -6,4 +5,32 @@
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.sign {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  span {
+    padding-right: 5px;
+    color: #696262;
+  }
+}
+
+.signIn {
+    transition: all 0.3s linear;
+    &:hover {
+        text-decoration: underline;
+    }
 }

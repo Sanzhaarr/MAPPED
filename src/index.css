@@ -25,7 +25,9 @@ body {
   box-sizing: border-box;
 }
 
-
+.active-button {
+  display: none;
+}
 
 code {
   background: #fafafa;
